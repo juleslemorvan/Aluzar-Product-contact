@@ -42,22 +42,6 @@ npm run dev
 | Présence | `PresencaSection.jsx` | Compteurs + carte Leaflet |
 | Contact | `Contact.jsx` | CTA WhatsApp final |
 
-## Personnalisation
-
-### Numéro WhatsApp
-Dans `src/App.jsx` :
-```js
-const WHATSAPP_NUMBER = "33638380634"; // format international sans +
-```
-
-### Établissements sur la carte
-Dans `src/components/PresencaSection.jsx`, remplace le tableau `establishments` avec tes vrais lieux :
-```js
-{ name: "Nom du bar", city: "Ville", type: "Bar", coords: [latitude, longitude] }
-```
-
-### Témoignages
-Dans `src/components/Testimonial.jsx`, remplace le tableau `testimonials` avec tes vrais avis clients.
 
 ## Charte graphique
 
